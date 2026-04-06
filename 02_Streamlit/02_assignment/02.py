@@ -18,3 +18,4 @@ age = relativedelta(today, user_dob)
 
 if age:
     st.write(f"Your age is: {age.years} years, {age.months} months, {age.days}days")
+    st.success("The process is executed with code 0.")
